@@ -188,3 +188,52 @@ body {
     font-size: 168;
     font-weight: 500;
 }
+
+/* What I Do container styles : start   */
+
+.what-do-container{
+    text-align: center;
+    margin: 0 6rem 6rem 6rem;
+}
+
+.what-do-text-container {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.what-do-description {
+    font-size: 1.1rem;
+    color: #757575;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.what-do-skills{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-item {
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.skill-description{
+    font-size: 1rem;
+    color: #757575;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.skill-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* what I Do container styles : end    */
+
+/* summary of resume styles : start    */
