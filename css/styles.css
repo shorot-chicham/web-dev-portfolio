@@ -111,6 +111,27 @@ body {
     font-weight: bold;
 }
 
+.contact-me-btn {
+    
+    background-color: #faf6f6;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.btn-icon {
+    margin-right: 8px;
+}
+
+.contact-me-btn:hover {
+    background-color: #e65c00;
+    color: white;
+}
+
 .view-portfolio-btn:hover {
     background-color: #e65c00;
 }
@@ -127,3 +148,43 @@ body {
 }
 
 /* main content styles */
+
+/* about me section styles : start  */
+.about-me-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 6rem 6rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.about-me-text-container {
+    max-width: 800px;
+    margin: 2rem 2rem;
+}
+
+.about-me-description {
+    font-size: 1.1rem;
+    color: #757575;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.about-me-info{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.info-item p{
+    color: #757575;
+    font-size: 168;
+    font-weight: 500;
+}
