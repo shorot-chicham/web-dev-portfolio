@@ -437,3 +437,70 @@ form{
         justify-content: flex-start;
     }
 }
+
+/* Responsive design for medium screens */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* navigation container styles */
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 2rem;
+    }
+
+    .nav-site-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    /* banner container styles  */
+
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        margin-left: 2rem;
+    }
+
+    .banner-text-container {
+        margin-top: 4rem;
+    }
+
+    .about-me-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-section, .what-do-container, .summary-of-resumes-container {
+        margin: 0 2rem 4rem 2rem;
+    }
+
+    /* What I Do container styles : start */
+    .what-do-skills{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 20px 2rem;
+    }
+
+    /* Summary of resume styles : start */
+
+    /* .summary-of-resumes-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    } */
+
+    .connect-sites {
+        justify-content: flex-start;
+    }
+}   
