@@ -237,3 +237,66 @@ body {
 /* what I Do container styles : end    */
 
 /* summary of resume styles : start    */
+
+
+.summary-of-resumes-container{
+    margin: 0 6rem 6rem 6rem;
+    text-align: center;
+}
+
+.summary-of-resumes-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary-of-resumes-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resume-items{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.resume-item{
+    border-bottom: #757575 1px solid;
+}
+
+.resume-item-title{
+    margin-bottom: 0;
+    line-height: 0.1;
+}
+
+.resume-item-description{
+    font-size: 1rem;
+    color: #757575;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.resume-item-subtitle{
+    font-size: 1rem;
+    color: #757575;
+    line-height: 1.4;
+    margin-top: none;
+}
+
+.download-resume-btn {
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    padding: 18px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+} 
+
+.download-resume-btn:hover {
+    background-color: #e65c00;
+}
+
+/* summary of resume styles : end    */
+/* footer styles : start  */
